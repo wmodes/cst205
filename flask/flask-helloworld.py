@@ -19,7 +19,7 @@ def whoami():
 
 @app.route('/mytemplate')
 def t_test():
- return render_template('flask-template.html')
+ return render_template('flask-template.html', var1='1', var2='2')
 
 def saymyname():
     return "Wes"
