@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-my_video = cv2.VideoCapture('images/cabbage.mp4')
+my_video = cv2.VideoCapture('../images/cabbage.mp4')
 
 frame_rate = my_video.get(cv2.CAP_PROP_FPS)
 

@@ -8,7 +8,7 @@ face_cascade = cv2.CascadeClassifier(casc_class)
 if face_cascade.empty():
     print('WARNING: Cascade did not load')
 
-img = cv2.imread('images/fillion.jpg')
+img = cv2.imread('../images/face9.png')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 faces = face_cascade.detectMultiScale(gray, 1.1, 9)
@@ -23,4 +23,4 @@ cv2.imwrite('newface2.png', img)
 
 cv2.imshow("Firefly!",img)
 
-cv2.waitKey(8000)
+cv2.waitKey(16000)

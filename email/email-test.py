@@ -5,6 +5,7 @@ import getpass
 
 try:
   server = smtplib.SMTP('smtp.gmail.com', 587)
+  #server = smtplib.SMTP('smtp.mail.yahoo.com', 587)
   server.ehlo()
 except:
   print("Something went wrong.")
@@ -22,10 +23,12 @@ my_email = "wmodes@csumb.edu"
 
 msg = EmailMessage()
 
-msg['Subject'] = "My Great Email"
-msg['From'] = my_email
-msg['To'] = "wmodes@csumb.edu"
-msg.set_content("Hello!")
+msg['Subject'] = "A message to my flock"
+# msg['From'] = my_email
+msg['From'] = "god@heaven.org"
+# msg['To'] = "wmodes@csumb.edu"
+msg['To'] = "zhutchinson@csumb.edu"
+msg.set_content("Stop sinning. I'm watching you know.")
 
 # could also place "with" inside a for loop for multiple images
 with open('screen3.png', 'rb') as fp:
