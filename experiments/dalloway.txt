@@ -1,0 +1,674 @@
+Skip to main content
+iLearn
+Help 
+Resources 
+Wesley Modes (Wes) 
+CST205-01_FA19:Multimedia Design & Progmng
+Home
+My courses
+Fall 19
+CST205-01_FA19:Multimedia Design & Progmng
+Your progressWeekly outline
+General
+	
+CST 205
+
+Multimedia Design & Programming
+
+
+Class Days/Time:    	Mon & Wed 10:00 - 11:50 AM
+Classroom:	BIT 110
+Prerequisites:	None
+Instructor:	Wes Modes
+Office Hours:	Wed 1:30 - 3:30pm (or by appointment)
+Office Location:	BIT 207
+Email:	wmodes@csumb.edu
+Telephone:	831-704-6690 (text only)
+TAs:	Denize Ignacio <dignacio@csumb.edu>,
+Trent Schwartz <tschwartz@csumb.edu>
+TA Office Hours:
+
+12 - 2pm Monday, Wednesday (Trent)
+Check slack for extra unscheduled hours
+
+4 - 5pm Monday, (Denize - in person)
+11:30 - 12:30pm Friday  (Denize - in person and virtual)
+
+If you cannot make any of these times and need help:
+- Contact Trent or Denize and schedule a 1 on 1
+- Slack Trent or Denize and they will get back to you ASAP
+AnnouncementsForum
+Instructor AnnouncementsForum
+Ask Your InstructorForum
+Course SyllabusFile
+Class ParticipationAssignment
+Resources
+PYTHON DOCUMENTATIONURL
+ If you have a library issue or question, do not understand syntax, or want to understand how/why
+
+python works the way it does please check this first. It is a great resource and will probably be able to help.
+
+Beginning of Semester TasksChecklist
+Hidden from students
+Attendance
+Instructor AnnouncementsForum
+Class Slack ChannelURL
+Project Group SurveyURL
+Completed: Project Group Survey
+Wes' github CST205 Repo (in-class examples)URL
+Survey of Course Learning ExperienceURL
+Completed: Survey of Course Learning Experience
+Survey SpreadsheetURL
+Hidden from students
+Survey ResultsURL
+Hidden from students
+Project Group ListURL
+CST205 Project Team EvaluationURL
+Completed: CST205 Project Team Evaluation
+August 26 - September 1
+WEEK 1 - Introduction and the Command-Line
+Class 1
+Activity
+Introduction to class, expectations, and syllabus
+How This Class is Run
+A note about grading
+A Strategy for Success - Come to every class; do every assignment
+Class Slack Channel
+Add photo of your face to iLearn
+Class Project
+Lecture The Command Line
+Lab 1 Command Line
+Homework
+Join Class Slack Channel and post a brief introduction and photo
+Read Course Syllabus
+Install software (terminal, python 3.x, Sublime3)
+Complete Lab 1 Command Line
+Read A Brief History of Terminal Emulation
+Read Q&A: Python Creator
+Resources
+Introduction, Motivation and Course OverviewFile
+The Command LineFile
+Lab 1 Command LineAssignment
+Join Class Slack Channel and post a brief introduction and photoAssignment
+A Brief History of Terminal EmulationURL
+Q&A: Python CreatorURL
+Class 2
+Activity
+No class
+Homework
+Review The Command Line
+Complete Lab 1 Command Line
+Install or run a BASH terminal program on your computer
+Install Sublime3 and make sure it can run from the command line
+Read before next class: Think Python, Chapter 1
+Section 1.9 (Exercises) is optional
+Resources
+Command Line Keynote SourceFile
+Hidden from students
+Lab 1 Word SourceFile
+Hidden from students
+Think Python, Chapter 1URL
+How to Install and Use the Linux Bash Shell on Windows 10URL
+win-bash - A stand-alone bash for WindowsURL
+How to Use Linux Commands in Windows with CygwinURL
+Launch Sublime Text from the command line on OSXURL
+Open Sublime Text From the Command Line Using Subl.exe (Windows)URL
+September 2 - September 8
+WEEK 2 - Intro to Python
+Class 1
+Holiday!
+Class 2
+Due:
+Lab 1 Command Line
+Activity
+Intro to Python Programming, Part 1
+Pair Programming in the Real World
+Intro to Python Programming, Part 2
+Lab 2: Color Space Models
+Lab 3 Color Dictionaries
+Fill out CST205 Project Group Survey
+Homework
+Finish Lab 2: Color Space Models
+Read Chapter 7 of Understanding Color, 5th Edition
+Finish Lab 3 Color Dictionaries
+Complete CST205 Project Group Survey
+Resources
+Quiz 0 - Introduction
+Intro to Python Programming, Part 1File
+Hidden from students
+Intro to Python Programming, Part 1File
+Intro to Python Programming, Part 2File
+Hidden from students
+Intro to Python Programming, Part 2File
+Lab 2: Color Space ModelsAssignment
+Lab 3 Color DictionariesAssignment
+Chapter 7 of Understanding Color, 5th EditionURL
+Homework 1: HistogramAssignment
+homework_1_image_matrix.datFile
+hw1_hist_plotter.pyFile
+Homework 1 Word SourceFile
+Hidden from students
+This week
+September 9 - September 15
+WEEK 3 - Python Practice
+Class 1
+Due:
+Lab 3 Color Dictionaries
+Activity
+Python, Part 3
+Read: Python Virtual Environments: A Primer
+Lab 4 Virtual Environments
+Homework
+Complete Lab 4 Virtual Environments
+Resources
+Python Part 3 Keynote SourceFile
+Hidden from students
+Python, Part 3File
+Python Virtual Environments: A PrimerURL
+Lab 4 Virtual EnvironmentsAssignment
+Python Virtual Environments: venv vs. virtualenv and other legacy toolsPage
+Class 2
+Due:
+Lab 4 Virtual Environments
+Activity
+Digital Image Filtering
+Lab 5 Digital Images
+Homework
+Complete Lab 5 Digital Images
+Resources
+Digital Image Filtering Keynote SourceFile
+Hidden from students
+Digital Image FilteringFile
+Lab 5 Digital ImagesAssignment
+RockPaperScissorsData.pyFile
+RockPaperScissors.pyFile
+September 16 - September 22
+WEEK 4 - Digital Images
+Class 1
+Due:
+Lab 5 Digital Images
+Activity:
+Digital Image Color Manipulation
+Lab 6 Image Filtering
+Homework:
+Complete Lab 6 Image Filtering
+Resources:
+Digital Image Color Manipulation LectureURL
+Not completed: Digital Image Color Manipulation Lecture
+Digital Image Color ManipulationFile
+Lab 6 Image FilteringAssignment
+Sample Python Image Filter
+warm-image.pyFile
+Image: bit.jpgFile
+Class 2
+Due:
+Lab 6 Image Filtering
+Activity:
+Image Transformations
+Lab 7 Chroma Key
+Homework:
+Complete Lab 7 Chroma Key
+Announcement: Quiz 1 next week
+
+Image Transformations LectureURL
+Not completed: Image Transformations Lecture
+Image TransformationsFile
+Bill Murray's Chroma Key TutorialURL
+Lab 7 Chroma KeyAssignment
+Homework 2: Temporal ProcessingAssignment
+Homework 2 ImagesURL
+September 23 - September 29
+WEEK 5 - Object Oriented
+Class 1
+Due:
+Lab 7 Chroma Key
+Activity:
+Quiz 1 Review
+Object-Oriented Programming with Python
+Color class example
+Lab 8 Classes
+Homework:
+Complete Lab 8 Classes
+Resources:
+Quiz 1 Study Guide Word SourceFile
+Hidden from students
+Object-Oriented ProgrammingFile
+Color class exampleURL
+Lab 8 ClassesAssignment
+Lab 8 Word SourceFile
+Hidden from students
+Class 2
+Due:
+Lab 8 Classes
+Activity:
+Quiz 1
+GUI Programming Intro
+Resources:
+Quiz 1
+GUI Programming IntroFile
+September 30 - October 6
+WEEK 6 - GUI Programming
+Class 1
+Due:
+Homework 2: Temporal Processing
+Activity:
+GUI Programming, Part 2
+Lab 9 GUI Programming
+Homework:
+Lab 9 GUI Programming
+Note: Quiz 2 next week
+
+GUI Programming, Part 2File
+Lab 9 GUI ProgrammingAssignment
+Lab 9 Word SourceFile
+Hidden from students
+Class 2
+Due:
+Lab 9 GUI Programming
+Activity:
+GUI Programming, Part 3
+PyQT5 Code Samples (link)
+Quiz 2 Review
+Lab 10 Hex Converter
+Homework:
+Complete Lab 10 Hex Converter
+Homework 3: Image Search
+Resources:
+GUI Programming, Part 3File
+Quiz 2 ReviewFile
+Quiz 2 Review Word SourceFile
+Hidden from students
+Lab 10 Hex ConverterAssignment
+Lab 10 Word SourceFile
+Hidden from students
+Homework 3: Image SearchAssignment
+Homework 3 Image CollectionFile
+October 7 - October 13
+WEEK 7 - Web Programming
+Class 1
+Due:
+Lab 10 Hex Converter
+Activity:
+Quiz 2
+Web Applications, Part 1
+Homework:
+None
+Resources:
+Quiz 2
+Web Applications, Part 1File
+Class 2
+Due:
+Nuthin'
+Activity:
+Web Applications, Part 2
+Python Playlist Example
+Lab 11 Flask
+CST205 Project Groups
+Homework:
+Complete Lab 11 Flask
+Resources:
+Web Applications, Part 2File
+Lab 11 FlaskAssignment
+Lab 11 Word SourceFile
+Hidden from students
+Python Playlist ExampleURL
+October 14 - October 20
+WEEK 8 - APIs
+Class 1
+Due:
+Lab 11 Flask
+Homework 3: Image Search
+Activity:
+APIs
+Check out NASA API Flask Example
+Check out Spotify API Flask Example
+Lab 12 APIs
+Resources:
+APIsFile
+Lab 12 APIsAssignment
+NASA API Flask ExampleURL
+Spotify API Flask ExampleURL
+Class 2
+Due:
+Lab 12 APIs
+Activity:
+Web Scraping
+Lab 13 Beautiful Soup
+Resources:
+Web ScrapingFile
+Lab 13 Beautiful SoupAssignment
+Homework 4: FlaskAssignment
+Homework 4 Image CollectionFile
+October 21 - October 27
+WEEK 9 - Computer Vision
+Class 1
+Due:
+Lab 13 Beautiful Soup
+Activity:
+Computer Vision, Part 1
+Lab 14 OpenCV
+Note: Quiz 3 next week
+Homework:
+Lab 14 OpenCV
+Term Project Ideation, Prototyping, and Planning
+Resources:
+Computer Vision, Part 1File
+Lab 14 OpenCVAssignment
+How to Use Mind Maps to Unleash Your Brains Creativity and PotentialFile
+What is the Worst Possible Idea?URL
+Class 2
+Due:
+Lab 14 OpenCV
+Activity:
+Survey of Course Learning Experience
+Computer Vision, Part 2
+Face detection
+Face/eye detection with webcam
+Lab 15 Catch Up & Experiment
+Homework:
+Lab 15 Catch Up & Experiment
+Term Project Ideation, Prototyping, and Planning
+Resources:
+Computer Vision, Part 2File
+Face DetectionURL
+Face/Eye Detection with WebcamURL
+Lab 15 Catch Up & ExperimentAssignment
+Term Project Ideation, Prototyping, and PlanningAssignment
+Quiz 3 Study Guide Word SourceFile
+Hidden from students
+October 28 - November 3
+WEEK 10 - Digital Audio
+Class 1
+Due:
+Homework 4: Flask
+Lab 15 Catch Up & Experiment
+Term Project Ideation, Prototyping, and Planning
+Activity:
+Quiz 3
+Digital Audio, Part 1
+Lab 16 Project & Survey
+Resources:
+Quiz 3
+Digital Audio, Part 1File
+Lab 16 Project & SurveyAssignment
+Hidden from students
+CST205 Mid-Term SurveyURL
+Hidden from students
+Class 2
+Due:
+Lab 16 Project & Survey
+Activity:
+Digital Audio, Part 2
+Github: Multi-Note with .wav header creation URL
+Lab 17 Sounds
+Resources:
+Digital Audio, Part 2File
+Github: Multi-Note with .wav header creationURL
+Lab 17 SoundsAssignment
+November 4 - November 10
+WEEK 11 - Digital Audio (Cont)
+Class 1
+Due:
+Lab 17 Sounds
+Activity:
+Lab 18 Project Design Document
+Review: Midterm Study Guide
+Resources:
+Midterm Study GuideFile
+Lab 18 Project Design DocumentAssignment
+Project Design TemplateURL
+Class 2
+Due:
+Nuthin'
+Activity:
+Midterm
+Work on Lab 18 Project Design Document
+Homework:
+Lab 18 Project Design Document
+Resources:
+MidtermQuiz
+November 11 - November 17
+WEEK 12 - Midterm & Git
+Class 1
+Holiday!
+
+Class 2
+Due
+Lab 18 Project Design Document
+Activity:
+Intro to Git and GitHub
+Git for Teams
+Team Project Meeting
+Resources:
+Intro to Git and GitHubFile
+Git for TeamsFile
+November 18 - November 24
+WEEK 13 - SVGs and Data Visualization
+Class 1
+Due:
+Nuthin'
+Activity:
+Scalable Vector Graphics
+Project work
+Introduce Final Project
+Homework:
+Work on project
+Week 2 Project Check-in
+Resources:
+Attendance Quiz 1
+Scalable Vector GraphicsFile
+Week 2 Project Check-inQuestionnaire
+Class 2
+Due:
+Nuthin'
+Activity:
+Data Visualization
+Team Project work
+Week 2 Project Check-in (due at end of class)
+Homework:
+OOP Problem-Solving Approach to Project Design
+Resources:
+Data VisualizationFile
+OOP Problem-Solving Approach to Project DesignAssignment
+November 25 - December 1
+Term Break
+December 2 - December 8
+WEEK 14 - More Python Programming
+Class 1
+Due:
+OOP Problem-Solving Approach to Project Design
+
+Activity:
+Discuss OOP Problem-Solving Approach to Project Design
+Send email with Python
+Github: Send Email with Python
+Team Project work
+Homework:
+Week 3 Project Check-in
+Resources:
+Send email with PythonFile
+Github: Send Email with PythonURL
+Week 3 Project Check-inQuestionnaire
+Not completed: Week 3 Project Check-in
+Class 2
+Due:
+Nuthin'
+Activity:
+Functional Programming with Python
+Week 3 Project Check-in (due at end of class)
+Homework:
+Work on Project
+Resources:
+Functional Programming with PythonFile
+December 9 - December 15
+WEEK 15 - Conclusion and Final
+Class 1
+Due:
+Nuthin'
+Activity:
+Conclusion
+Course Evaluation
+Review for Final Exam
+Project work
+Homework:
+Work on Final Project
+Week 4 Project Check-in
+Resources:
+Week 4 Project Check-inQuestionnaire
+Class 2
+Due:
+Nutin'
+Activity:
+Final Exam
+Work on Week 4 Project Check-in
+Project work
+Homework:
+Complete Final Project
+Resources
+Final ExamQuiz
+Course EvaluationURL
+Final ProjectAssignment
+December 16 - December 22
+WEEK 16 - Project Presentations
+Class 1
+Homework:
+CST205 Project Team Evaluation
+
+Activity:
+Project Presentations
+Resources:
+Project PresentationsAssignment
+Skip Section links
+Section links
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+Jump to current week
+Skip Attendance
+Attendance
+Attendance
+Take attendance
+Add
+Report
+
+Skip Upcoming events
+Upcoming events
+Activity event Lab 3 Color Dictionaries is due
+Today, 9:00 AM
+Activity event Attendance
+Today, 10:00 AM » 11:50 AM
+Activity event Attendance
+Monday, September 16, 10:00 AM » 11:50 AM
+Activity event Lab 1 Command Line is due to be graded
+Monday, September 16, 12:40 PM
+Activity event Digital Image Color Manipulation Lecture should be completed
+Tuesday, September 17, 12:00 AM
+ Wes' Office Hours
+Tuesday, September 17, 2:30 PM » 3:30 PM
+Activity event Lab 4 Virtual Environments is due
+Wednesday, September 18, 9:00 AM
+Activity event Attendance
+Wednesday, September 18, 10:00 AM » 11:50 AM
+Activity event Lab 2: Color Space Models is due to be graded
+Wednesday, September 18, 12:40 PM
+Activity event Image Transformations Lecture should be completed
+Thursday, September 19, 12:00 AM
+Go to calendar...
+Skip Activities
+Activities
+AssignmentAssignments
+AttendanceAttendances
+ChecklistChecklists
+ForumForums
+QuestionnaireQuestionnaires
+QuizQuizzes
+Resources
+Skip Latest news
+Latest news
+Add a new topic...
+(No announcements have been posted yet.)
+Skip Quickmail
+Quickmail
+Compose New Email
+Signatures
+View Drafts
+View History
+Alternate Emails
+Configuration
+Skip People
+People
+Participants
+Skip My courses
+My courses
+IST541_30-90_FA19:MM II_Meta: Interactive Media
+CST252-01_FA19:Scripting for Multimedia
+CST251-01_FA19:Web Tools
+CST205-01_FA19:Multimedia Design & Progmng
+IST541-90_FA18:MM II: Interactive Media
+Online Benefits Enrollment Information Session
+IST541-30_FA19:MM II: Interactive Media
+CST251-51_FA19:Web Tools
+CST252-51_FA19:Scripting for Multimedia
+IST541-90_FA19:MM II: Interactive Media
+CST205-51_FA19:Multimedia Design & Progmng
+CST205-51_SP19:Multimedia Design & Progmng
+CST236-01_SP19:Computing for Digital Artists
+CST351-01_SP19:Web Design
+CST205-01_SP19:Multimedia Design & Progmng
+CST351-51_SP19:Web Design
+CST251-52_FA18:Web Tools
+CST251-91_FA18:Web Tools
+CST251-53_FA18:Web Tools
+CST251-03_FA18:Web Tools
+CST252-52_FA18:Scripting for Multimedia
+CST252-02_FA18:Scripting for Multimedia
+CST351-01_FA18:Web Design
+CST205-51_FA18:Multimedia Design & Progmng
+CST251-51_FA18:Web Tools
+CST205-01_FA18:Multimedia Design & Progmng
+CST351-51_FA18:Web Design
+CST351-51_SP18:Web Design
+CST351-01_SP18:Web Design
+CST236-01_SP18:Computing for Digital Artists
+CST205-01_SP18:Multimedia Design & Progmng
+CST251-01_FA17: Web Tools
+CST351-01_FA17: Web Design
+CST351-51_FA17: Web Design
+CST236-01_SP17: Computing for Digital Artists
+CST351-01_SP17: Web Design
+CST351-01_FA16: Web Design
+CST236-01_SP16: Computing for Digital Artists
+All courses ...
+Search
+ Contacts
+CST205-01_FA19:Multimedia Design & Progmng
+Participants
+Badges
+Grades
+Home
+Dashboard
+Calendar
+Private files
+My courses
+IST541_30-90_FA19:MM II_Meta: Interactive Media
+CST252-01_FA19:Scripting for Multimedia
+CST251-01_FA19:Web Tools
+CST205-01_FA19:Multimedia Design & Progmng
+IST541-30_FA19:MM II: Interactive Media
+CST251-51_FA19:Web Tools
+CST252-51_FA19:Scripting for Multimedia
+IST541-90_FA19:MM II: Interactive Media
+CST205-51_FA19:Multimedia Design & Progmng
+Online Benefits Enrollment Information Session
+More...
+
+
+
+You are logged in as Wesley Modes (Wes) (Log out)
+Reset user tour on this page
+Home
+Moodle Docs for this page
+
+California State University, Monterey Bay
+ https://csumb.edu
+ 831-582-4648
+Data retention summary
+Get the mobile app
