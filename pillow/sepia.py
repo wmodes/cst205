@@ -6,7 +6,7 @@ date: 12 February 2019
 
 from PIL import Image
 
-filename = "teacher.jpg"
+filename = "images/teacher.jpg"
 
 def sepia(p):
     """Tints shadows in brown
