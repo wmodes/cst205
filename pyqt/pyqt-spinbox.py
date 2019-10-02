@@ -15,8 +15,8 @@ class Form(QWidget):
         self.height = height
 
         self.picture = QLabel()
-        self.pixmap1 = QPixmap("images/chualar_sign.jpg")
-        self.pixmap2 = QPixmap("images/bit.jpg")
+        self.pixmap1 = QPixmap("../images/chualar_sign.jpg")
+        self.pixmap2 = QPixmap("../images/bit.jpg")
         self.picture.setPixmap(self.pixmap1)
 
         layout = QGridLayout()
