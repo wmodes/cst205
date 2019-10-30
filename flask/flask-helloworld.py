@@ -11,7 +11,8 @@ def home():
 
 @app.route('/hello')
 def hello():
-    return 'Hello world from Flask! ' + saymyname()
+    name = saymyname()
+    return '<h1>Hello World</h1><p>Hello world from Flask! Love, ' + name + "</p>"
 
 @app.route('/whoami')
 def whoami():

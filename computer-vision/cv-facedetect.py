@@ -8,7 +8,7 @@ face_cascade = cv2.CascadeClassifier(casc_class)
 if face_cascade.empty():
     print('WARNING: Cascade did not load')
 
-img = cv2.imread('../images/face9.png')
+img = cv2.imread('../images/image.png')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 faces = face_cascade.detectMultiScale(gray, 1.1, 9)

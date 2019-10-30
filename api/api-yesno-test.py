@@ -16,5 +16,6 @@ try:
     r = requests.get(endpoint, params=payload)
     data = r.json()
     pprint(data)
+    print ('<img src=\"' + data['image'] + '\">')
 except:
     print('please try again')
