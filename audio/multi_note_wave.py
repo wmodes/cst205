@@ -229,6 +229,6 @@ def new_wav(channels, filename, song):
             mat.tobytes()
         )
 
-bach = [(("C4", "E4", "G4"), 4)]
+bach = [(("C4", "E4", "G4"), 4), (("C4", "Eb4", "G4"), 4), (("G4", "D4", "Bb5"), 4)]
 
 new_wav(1,'mysong', bach)

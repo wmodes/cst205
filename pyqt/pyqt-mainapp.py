@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
 class Example(QWidget):
     def __init__(self):
         super().__init__()
-        
+
         self.label1 = QLabel('Label 1', self)
         self.label2 = QLabel('Label 2', self)
         vbox = QVBoxLayout()

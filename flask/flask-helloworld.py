@@ -3,6 +3,14 @@ from flask import Flask, render_template
 # create an instance of the Flask class
 app = Flask(__name__)
 
+meagans_faves = [
+	"Chocolaty Coco Puffs",
+	"Hot Cheetos",
+	"Phish the jam band (kinda like Grateful Dead)",
+	"Python programming",
+	"Snapchat Face mod filters"
+]
+
 # route() decorator binds a function to a URL
 @app.route('/')
 def home():
@@ -24,4 +32,17 @@ def t_test():
 
 def saymyname():
     return "Wes"
+
+@app.route('/template')
+def template():
+	return render_template('template1.html', name='Josephina Meagan McStallion', faves=meagans_faves, img='meagan.jpg', site='meagan-mcstalion.me.com', p='she', pp='her')
+
+@app.route('/response/<mood>')
+def response_page(mood):
+	return render_template('template1.html', name='Josephina Meagan McStallion', mood=mood, faves=meagans_faves, img='meagan.jpg', site='meagan-mcstalion.me.com', p='she', pp='her')
+
+
+
+
+
 

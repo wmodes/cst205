@@ -1,0 +1,43 @@
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/template1.css') }}">
+
+<main id="content">
+	<div class="headshot">
+		<img src="{{ url_for('static', filename=img) }}">
+	</div>
+
+	<div class="interaction">
+		{% if mood=="happy" %} 
+			<p>{{name}} is glad you are happy.</p>
+		{% elif mood=="sad" %} 
+			<p>{{name}} is sorry you are sad.</p>
+		{% else %}
+			<p>{{name}} wants to know if you are 
+				<a href="{{ url_for('response_page', mood='happy') }}">Happy</a>
+				or
+				<a href="{{ url_for('response_page', mood='sad') }}">Sad</a>
+			</p>
+		{% endif %}
+	</div>
+
+	<div class="biography">
+		<h1>Biography</h1>
+		<p>{{name}} is a Santa Cruz artist focused on social practice, sculpture, performance and new media work. {{p}} hold a MFA from the Digital Art and New Media program at UCSC. {{p}} have exhibited {{pp}} art and performed regionally since 1996. {{p}} are also a UCSC and SJSU art lecturer and curator at the Santa Cruz Museum of Art and History. In other lives, {{p}} are a high-tech runaway, writer, community organizer, geek, and mischief-maker. For more information, please visit <a href="{{ url_for('hello') }}">{{site}}</a>.</p>.
+
+		<h2>Favorites</h2>
+
+		<p>These are {{name}}'s faves:</p>
+
+		<ol>
+			{% for item in faves %}
+			<li> {{ item }} </li>
+			{% endfor %}
+		</ol>
+
+		<p>{{name}}'s' primary art research project is A Secret History of American River People, a project to build a collection of personal stories of people who live and work on the river over a series of epic river voyages from the deck of a recreated midcentury shantyboat. Using material from fieldwork on a growing list of other American rivers, Secret History is a dialogic and participatory art piece, firmly rooted in a People's History tradition, that reexamine the issues currently and historically faced by people living or working on the river. Particular attention is given to the invisible stories of women, native people, working people, and people of color, to create a multi-perspective and multi-path take on historical narrative, exploring the importance of a public commons and to challenge dominant cultural assumptions about the role in society of people living at the fringe. </p>
+	</div>
+	
+</main>
+
+{% endblock %}

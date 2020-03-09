@@ -1,0 +1,26 @@
+
+body {
+	background-color: darkgray;
+}
+
+#content {
+	border: solid 1px black;
+	background-color: lightgray;
+	min-height: 80vh;
+}
+
+body, #content {
+	padding: 20px;
+}
+
+.headshot {
+	float: right;
+	width: 400px;
+	height: auto;
+	margin:20px;
+}
+
+.headshot img {
+	width: 100%;
+	height: auto;
+}
