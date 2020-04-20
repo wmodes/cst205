@@ -63,6 +63,7 @@ def new_wav(channels, filename, *args):
 print("create_pcm returns: ",str(create_pcm(440)))
 # new_wav(1,'mysong', 440, 200, 252, 212, 400, 150, 360)
 new_wav(1,'mysong', 262, 262, 294, 262, 349, 330, 262, 262, 294, 262, 392, 349, 262, 262, 523, 440, 349, 330, 294, 466, 466, 440, 349, 392, 349 )
+new_wav(1,'terriblesong', 7800, 420, 2000, 28, 15000, 44, 261.6 )
 
 
 

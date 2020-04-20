@@ -1,5 +1,7 @@
 import numpy as np
 
+##Hi
+
 # cd audio at 44,100 hz and 16 bits per sample
 SAMPLES_S = 44_100
 BITS_SAMPLE = 16
@@ -210,7 +212,7 @@ def new_wav(channels, filename, song):
     bits_per_sample = (BITS_SAMPLE).to_bytes(2, byteorder='little')
     subchunk_2_size = (int(seconds * SAMPLES_S * BITS_SAMPLE/8)).to_bytes(4, byteorder='little')
 
-    
+
     with open(f'{filename}.wav', 'wb') as fo:
         fo.write(
             CHUNK_ID +
@@ -229,6 +231,8 @@ def new_wav(channels, filename, song):
             mat.tobytes()
         )
 
-bach = [(("C4", "E4", "G4"), 4), (("C4", "Eb4", "G4"), 4), (("G4", "D4", "Bb5"), 4)]
+bach = [(("C4", "E4", "G4"), 3), (("C4", "Eb4", "G4"), 3), (("G4", "D4", "Bb5"), 3), (("A3", "D4", "Gb4"), 3)]
+# bach = [(("C4", "E4", "G4"), 4), (("A4", "C4", "G4"), 4), (("G4", "D4", "Bb5"), 4), (("C4", "Eb4", "G4"), 4)]
+# this = [(("C4", "C5", "E5", "G5"),4), (("B3", "C5", "D5", "G5"),4), (("A3", "C5", "E5", "G5"),4), (("F3", "C5", "F5", "G5"),4)]
 
 new_wav(1,'mysong', bach)
